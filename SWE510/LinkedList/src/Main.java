@@ -1,10 +1,11 @@
 public class Main {
     public static void main(String[] args) {
         MyLinkedList list = new MyLinkedList();
-        System.out.println(list.head);
-        for (int i = 0; i < 4; i++) {
+        for (int i = 0; i < 8; i++) {
             list.append(i);
         }
+
+        list.remove(4);
 
         renderLinkedList(list);
     }
@@ -49,6 +50,25 @@ class MyLinkedList {
         }
 
         current.next = new_node;
+    }
+
+    public void remove(int key){
+        Node current = head, prev = null;
+
+        if(current != null & current.data != key){
+            head = head.next;
+            return;
+        }
+
+        while(current != null && current.data != key){
+            prev = current;
+            current = current.next;
+        }
+
+        if(current == null)
+            return;
+
+        prev.next = current.next;
     }
 }
 
