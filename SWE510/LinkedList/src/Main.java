@@ -4,8 +4,9 @@ public class Main {
         for (int i = 0; i < 8; i++) {
             list.append(i);
         }
-
+        System.out.println(list.search(4));
         list.remove(4);
+        System.out.println(list.search(9));
 
         renderLinkedList(list);
     }
@@ -36,7 +37,6 @@ class MyLinkedList {
     public void append(int x){
         Node current = head;
         Node new_node = new Node(x);
-//        System.out.println(x);
 
         if(head == null){
             head = new_node;
@@ -69,6 +69,19 @@ class MyLinkedList {
             return;
 
         prev.next = current.next;
+    }
+
+    public boolean search(int key){
+        Node current = head;
+
+        while(current.next != null){
+            if(current.data == key)
+                return true;
+
+            current = current.next;
+        }
+
+        return false;
     }
 }
 
