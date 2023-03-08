@@ -4,11 +4,11 @@ public class Main {
         for (int i = 0; i < 8; i++) {
             list.append(i);
         }
-        System.out.println(list.search(4));
         list.remove(4);
-        System.out.println(list.search(9));
+        System.out.println(list.getNth(4));
+        System.out.println(list.getNth(9));
 
-        renderLinkedList(list);
+//        renderLinkedList(list);
     }
 
     public static void renderLinkedList(MyLinkedList list){
@@ -82,6 +82,22 @@ class MyLinkedList {
         }
 
         return false;
+    }
+
+    public int getNth(int i){
+        Node current = head;
+        int count = 0;
+
+        while(current.next != null){
+            if(count == i)
+                return count;
+
+            current = current.next;
+            count++;
+        }
+
+        assert (false);
+        return -1;
     }
 }
 
