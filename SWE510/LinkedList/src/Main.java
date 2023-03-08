@@ -5,10 +5,9 @@ public class Main {
             list.append(i);
         }
         list.remove(4);
-        System.out.println(list.getNth(4));
-        System.out.println(list.getNth(9));
+        System.out.println(list.findLength());
 
-//        renderLinkedList(list);
+        renderLinkedList(list);
     }
 
     public static void renderLinkedList(MyLinkedList list){
@@ -98,6 +97,17 @@ class MyLinkedList {
 
         assert (false);
         return -1;
+    }
+
+    public int findLength(){
+        Node current = head;
+        int length = 0;
+        while(current != null){
+            length++;
+            current = current.next;
+        }
+
+        return length;
     }
 }
 
