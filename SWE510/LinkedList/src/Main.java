@@ -5,7 +5,8 @@ public class Main {
             list.append(i);
         }
         list.remove(4);
-        System.out.println(list.findLength());
+
+        System.out.println("length of llist: " + list.findLength());
 
         renderLinkedList(list);
     }
@@ -13,12 +14,10 @@ public class Main {
     public static void renderLinkedList(MyLinkedList list){
         Node current = list.head;
 
-        while(current.next != null){
+        while(current != null){
             System.out.println(current.data);
             current = current.next;
         }
-
-        System.out.println(current.data);
 
         System.out.println("list rendered...");
     }
@@ -54,7 +53,7 @@ class MyLinkedList {
     public void remove(int key){
         Node current = head, prev = null;
 
-        if(current != null & current.data != key){
+        if(current != null & current.data == key){
             head = head.next;
             return;
         }
