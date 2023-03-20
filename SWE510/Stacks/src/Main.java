@@ -20,6 +20,7 @@ public class Main {
 
         System.out.println("Popped element: " + myStack.pop());
         System.out.println("Popped element: " + myStack.pop());
+        System.out.println("Popped element: " + myStack.pop());
 
         System.out.println("myStack after pop operations: " + myStack);
     }

@@ -39,4 +39,18 @@ public class LinkedList {
         prev.next = null;
         return current.data;
     }
+
+    public int top(){
+        Node current = head;
+
+        if(head == null){
+            throw new RuntimeException("list is empty");
+        }
+
+        while(current.next != null){
+            current = current.next;
+        }
+
+        return current.data;
+    }
 }
