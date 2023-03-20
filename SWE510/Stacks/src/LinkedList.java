@@ -4,6 +4,9 @@ public class LinkedList {
     public void renderLl(){
         Node current = head;
 
+        if(head == null)
+            System.out.println("List is empty ");
+
         while(current != null){
             System.out.println(current.data);
             current = current.next;
@@ -52,5 +55,9 @@ public class LinkedList {
         }
 
         return current.data;
+    }
+
+    public void makeEmpty(){
+        head = null;
     }
 }
