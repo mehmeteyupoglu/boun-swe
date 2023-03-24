@@ -6,6 +6,11 @@ public class Main {
         }
         list.remove(4);
 
+//        list.insertIntoSortedList(4);
+//        list.insertIntoSortedList(6);
+        list.insertIntoSortedList(9);
+        list.insertIntoSortedList(8);
+
         System.out.println("length of llist: " + list.findLength());
 
         renderLinkedList(list);
@@ -107,6 +112,31 @@ class MyLinkedList {
         }
 
         return length;
+    }
+
+    public void insertIntoSortedList(int x){
+        Node current = head, prev = null;
+        Node new_node = new Node(x);
+
+        while(current.data < x && current.next != null){
+            System.out.println(current.data + " " + x);
+            prev = current;
+            current = current.next;
+        }
+
+//        System.out.println(current.data + " data ");
+
+        if(current.next == null){
+            current.next = new_node;
+            return;
+        }
+
+//        System.out.println(prev.data);
+//        System.out.println(new_node.data);
+//        System.out.println(current.data);
+
+        prev.next = new_node;
+        new_node.next = current;
     }
 }
 

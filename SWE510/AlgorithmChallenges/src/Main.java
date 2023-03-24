@@ -3,3 +3,8 @@ public class Main {
         System.out.println("Hello world!");
     }
 }
+
+class SinglyLinkedListNode {
+    int data;
+    SinglyLinkedListNode next;
+}

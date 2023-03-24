@@ -7,6 +7,4 @@ public class Node {
         data = x;
         next = null;
     }
-
-    Node head;
 }
