@@ -1,0 +1,88 @@
+<mxfile host="Electron" modified="2024-04-07T20:06:05.793Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.1.0 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="8ylCea1qVb3ckImsH7UV" version="24.1.0" type="device">
+  <diagram name="Sayfa -1" id="QhPU9wCU0yEqml_JHR3Z">
+    <mxGraphModel dx="934" dy="571" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="D_KBOJNtRPWXQSZw029G-1" value="view channel activities" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="90" width="360" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="D_KBOJNtRPWXQSZw029G-4" value="create task" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="260" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="D_KBOJNtRPWXQSZw029G-2" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.826;exitY=1.006;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="479.99999999999994" y="150.35999999999996" as="sourcePoint" />
+            <mxPoint x="480.8" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D_KBOJNtRPWXQSZw029G-3" value="Create&amp;nbsp;&lt;div&gt;New Task&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="480" y="185" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="D_KBOJNtRPWXQSZw029G-6" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.203;exitY=-0.006;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.326;entryY=1.061;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="D_KBOJNtRPWXQSZw029G-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="361.84000000000003" y="255.85999999999999" as="sourcePoint" />
+            <mxPoint x="360" y="149.99999999999997" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D_KBOJNtRPWXQSZw029G-7" value="Cancel&amp;nbsp;&lt;div&gt;Task&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;Creation&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="260" y="185" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="D_KBOJNtRPWXQSZw029G-8" value="Create&amp;nbsp;&lt;div&gt;Task Success&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="480" y="352" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="D_KBOJNtRPWXQSZw029G-9" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.826;exitY=1.006;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="480" y="320" as="sourcePoint" />
+            <mxPoint x="481" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D_KBOJNtRPWXQSZw029G-10" value="view task details" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="430" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="D_KBOJNtRPWXQSZw029G-11" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.826;exitY=1.006;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.963;entryY=-0.028;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="D_KBOJNtRPWXQSZw029G-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="590" y="150.35999999999996" as="sourcePoint" />
+            <mxPoint x="590.8" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D_KBOJNtRPWXQSZw029G-12" value="View&amp;nbsp;&lt;div&gt;task details&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="600" y="260" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="D_KBOJNtRPWXQSZw029G-14" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="D_KBOJNtRPWXQSZw029G-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="600" y="480" as="sourcePoint" />
+            <mxPoint x="650" y="430" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="750" y="300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D_KBOJNtRPWXQSZw029G-15" value="Return&amp;nbsp;&lt;div&gt;to channel&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="747" y="260" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="D_KBOJNtRPWXQSZw029G-16" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.826;exitY=1.006;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="479.99999999999994" y="489.99999999999994" as="sourcePoint" />
+            <mxPoint x="480.8" y="599.64" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D_KBOJNtRPWXQSZw029G-17" value="Edit&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;Task&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="474" y="529.64" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="D_KBOJNtRPWXQSZw029G-18" value="edit task" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="600" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="D_KBOJNtRPWXQSZw029G-19" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.177;exitY=-0.009;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.197;entryY=1.047;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="D_KBOJNtRPWXQSZw029G-18">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="370" y="594.3599999999999" as="sourcePoint" />
+            <mxPoint x="370.2800000000001" y="489.99999999999994" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D_KBOJNtRPWXQSZw029G-20" value="Cancel / Save" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="275" y="529.64" width="100" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
