@@ -1,0 +1,11 @@
+Flavio Lombardi, Roberto Di Pietro,
+Secure virtualization for cloud computing,
+Journal of Network and Computer Applications,
+Volume 34, Issue 4,
+2011,
+Pages 1113-1122,
+ISSN 1084-8045,
+https://doi.org/10.1016/j.jnca.2010.06.008.
+(https://www.sciencedirect.com/science/article/pii/S1084804510001062)
+Abstract: Cloud computing adoption and diffusion are threatened by unresolved security issues that affect both the cloud provider and the cloud user. In this paper, we show how virtualization can increase the security of cloud computing, by protecting both the integrity of guest virtual machines and the cloud infrastructure components. In particular, we propose a novel architecture, Advanced Cloud Protection System (ACPS), aimed at guaranteeing increased security to cloud resources. ACPS can be deployed on several cloud solutions and can effectively monitor the integrity of guest and infrastructure components while remaining fully transparent to virtual machines and to cloud users. ACPS can locally react to security breaches as well as notify a further security management layer of such events. A prototype of our ACPS proposal is fully implemented on two current open source solutions: Eucalyptus and OpenECP. The prototype is tested against effectiveness and performance. In particular: (a) effectiveness is shown testing our prototype against attacks known in the literature; (b) performance evaluation of the ACPS prototype is carried out under different types of workload. Results show that our proposal is resilient against attacks and that the introduced overhead is small when compared to the provided features.
+Keywords: Security; Cloud computing; Virtualization technologies

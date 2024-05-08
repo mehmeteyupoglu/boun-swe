@@ -1,0 +1,11 @@
+Sambit Kumar Mishra, Bibhudatta Sahoo, Priti Paramita Parida,
+Load balancing in cloud computing: A big picture,
+Journal of King Saud University - Computer and Information Sciences,
+Volume 32, Issue 2,
+2020,
+Pages 149-158,
+ISSN 1319-1578,
+https://doi.org/10.1016/j.jksuci.2018.01.003.
+(https://www.sciencedirect.com/science/article/pii/S1319157817303361)
+Abstract: Scheduling or the allocation of user requests (tasks) in the cloud environment is an NP-hard optimization problem. According to the cloud infrastructure and the user requests, the cloud system is assigned with some load (that may be underloaded or overloaded or load is balanced). Situations like underloaded and overloaded cause different system failure concerning the power consumption, execution time, machine failure, etc. Therefore, load balancing is required to overcome all mentioned problems. This load balancing of tasks (those are may be dependent or independent) on virtual machines (VMs) is a significant aspect of task scheduling in clouds. There are various types of loads in the cloud network such as memory load, Computation (CPU) load, network load, etc. Load balancing is the mechanism of detecting overloaded and underloaded nodes and then balance the load among them. Researchers proposed various load balancing approaches in cloud computing to optimize different performance parameters. We have presented a taxonomy for the load balancing algorithms in the cloud. A brief explanation of considered performance parameters in the literature and their effects is presented in this paper. To analyze the performance of heuristic-based algorithms, the simulation is carried out in CloudSim simulator and the results are presented in detail.
+Keywords: Cloud computing; Energy consumption; Load balancing; Makespan; Virtualization; VM; Task allocation
